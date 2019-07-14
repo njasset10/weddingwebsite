@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"
@@ -12,91 +13,51 @@
   <body>
     <div class="top-bar">
       <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Home</li>
+          <li><a href="#">Itinerary</a></li>
+          <li>
+            <a href="#">Basin Harbor, Vermont</a>
+            <ul class="menu vertical">
+              <li><a href="#">How do i get there?</a></li>
+              <li><a href="#">Where will i sleep?</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Activities & Dining</a></li>
+          <li><a href="#">Registry</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
         <ul class="menu">
-          <li class="menu-text">Blog</li>
-          <li><a href="#">One</a></li>
-          <li><a href="#">Two</a></li>
-          <li><a href="#">Three</a></li>
+          <li><button type="button" class="button">RSVP</button></li>
         </ul>
       </div>
     </div>
-
-    <div class="callout large primary">
-      <div class="row column text-center">
-        <h1>Our Blog</h1>
-        <h2 class="subheader">Such a Simple Blog Layout</h2>
+    <div class="hero-section">
+      <div class="hero-section-text">
+        <h1>GET EXCITED</h1>
+        <h5>Nick and Hilary are getting married*</h5>
+        <p>
+          *Kind of... we'll celebrate with everyone, but for tax purposes
+          probably nah
+        </p>
       </div>
     </div>
-
+    <br />
     <div class="row medium-8 large-7 columns">
       <div class="blog-post">
-        <h3>Awesome blog post title <small>3/6/2015</small></h3>
-        <img class="thumbnail" src="https://placehold.it/850x350" />
+        <h3>The Story of Us <small>11/14/11</small></h3>
+        <img
+          class="thumbnail"
+          src="http://www.middlebury.edu/media/view/444053/large/bread_loaf_banner.jpg"
+        />
         <p>
-          Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
-          Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a
-          porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci.
-          Quisque eget odio ac lectus vestibulum faucibus eget in metus. In
-          pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.
+          You shoulda been there. Breadloaf was magical.
         </p>
-        <div class="callout">
-          <ul class="menu simple">
-            <li><a href="#">Author: Mike Mikers</a></li>
-            <li><a href="#">Comments: 3</a></li>
-          </ul>
-        </div>
       </div>
-      <div class="blog-post">
-        <h3>Awesome blog post title <small>3/6/2015</small></h3>
-        <img class="thumbnail" src="https://placehold.it/850x350" />
-        <p>
-          Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
-          Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a
-          porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci.
-          Quisque eget odio ac lectus vestibulum faucibus eget in metus. In
-          pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.
-        </p>
-        <div class="callout">
-          <ul class="menu simple">
-            <li><a href="#">Author: Mike Mikers</a></li>
-            <li><a href="#">Comments: 3</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="blog-post">
-        <h3>Awesome blog post title <small>3/6/2015</small></h3>
-        <img class="thumbnail" src="https://placehold.it/850x350" />
-        <p>
-          Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
-          Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a
-          porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci.
-          Quisque eget odio ac lectus vestibulum faucibus eget in metus. In
-          pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.
-        </p>
-        <div class="callout">
-          <ul class="menu simple">
-            <li><a href="#">Author: Mike Mikers</a></li>
-            <li><a href="#">Comments: 3</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="blog-post">
-        <h3>Awesome blog post title <small>3/6/2015</small></h3>
-        <img class="thumbnail" src="https://placehold.it/850x350" />
-        <p>
-          Praesent id metus massa, ut blandit odio. Proin quis tortor orci.
-          Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a
-          porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci.
-          Quisque eget odio ac lectus vestibulum faucibus eget in metus. In
-          pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.
-        </p>
-        <div class="callout">
-          <ul class="menu simple">
-            <li><a href="#">Author: Mike Mikers</a></li>
-            <li><a href="#">Comments: 3</a></li>
-          </ul>
-        </div>
-      </div>
+    </div>
+    <div class="footer">
+      Made with love by the very people getting married
     </div>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
